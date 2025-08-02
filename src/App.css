@@ -1,0 +1,23 @@
+/* Additional custom styles if needed */
+.gradient-bg {
+  background: linear-gradient(135deg, #8F00FF 0%, #ffffff 100%);
+}
+
+.glass-effect {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Focus styles for accessibility */
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #8F00FF;
+  outline-offset: 2px;
+}
